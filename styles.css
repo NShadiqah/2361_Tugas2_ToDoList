@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-image: url('cybercity.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+  width: 350px;
+  text-align: center;
+  border: 2px solid cyan;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #00ffff;
+  text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  background: #222;
+  color: #00ffff;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: none;
+  font-size: 14px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #ff00ff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 0 15px rgba(255, 0, 255, 0.7);
+}
+
+button:hover {
+  background-color: #460746;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  text-shadow: 0 0 5px cyan;
+  border: 1px solid #00ffff;
+}
+
+li button {
+  background-color: #dd1b1b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 87, 51, 0.7);
+}
+
+li button:hover {
+  background-color: #ed6c6c;
+}
+
+li span {
+  flex-grow: 1;
+  margin-right: 10px;
+}
